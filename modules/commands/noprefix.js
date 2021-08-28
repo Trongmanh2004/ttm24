@@ -29,7 +29,7 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
     return api.sendMessage("haha cc cười đầu buồi địt mẹ m😏", threadID);
   };
 
-  if ((event.body.toLowerCase() == "@Mạnh") || (event.body.toLowerCase() == "@Đức")) {
+  if ((event.body.toLowerCase() == "@Mạnh") || (event.body.toLowerCase() == "@Mạnh")) {
     return api.sendMessage("Admin t đi đá phò r gọi cc\nBt dùng callad ko ngu wa' chắc yêu admin bot r😏", threadID);
   };
 
